@@ -245,12 +245,15 @@ hr {
 }
 #plus_img{
   transition: transform .5s; /* Animation */
+  color: #cf5b21;
+  font-weight: 900;
 }
 #plus_img:hover{
   transform: scale(1.1); 
 }
 /* Inner */
 .inner {
+
   margin: 0 auto;
   width: 75rem;
   max-width: calc(100% - 6rem); }
@@ -692,21 +695,21 @@ table.alt tbody tr td {
     -ms-flex-grow: 0;
     flex-grow: 0; }
   .highlights > * {
-    width: 33.3333333333%; }
+    width: 50%; }
   .highlights > * {
     padding: 1.5rem;
-    width: calc(33.3333333333% + 1rem); }
-  .highlights > :nth-child(-n + 3) {
+    width: calc(50% + 1rem); }
+  .highlights > :nth-child(-n + 2) {
     padding-top: 0; }
-  .highlights > :nth-last-child(-n + 3) {
+  .highlights > :nth-last-child(-n + 2) {
     padding-bottom: 0; }
-  .highlights > :nth-child(3n + 1) {
+  .highlights > :nth-child(2n + 1) {
     padding-left: 0; }
-  .highlights > :nth-child(3n) {
+  .highlights > :nth-child(2n) {
     padding-right: 0; }
-  .highlights > :nth-child(3n + 1),
-  .highlights > :nth-child(3n) {
-    width: calc(33.3333333333% + -0.5rem); }
+  .highlights > :nth-child(2n + 1),
+  .highlights > :nth-child(2n) {
+    width: calc(50% + -0.5rem); }
   .highlights .content {
     border-radius: 4px;
     height: 100%;
@@ -1800,7 +1803,7 @@ ul.icons {
       padding: 3rem 0 1rem 0 ; } }
   @media screen and (max-width: 480px) {
     .wrapper {
-      padding: 2rem 0 0.1rem 0 ; } }
+      padding: 4rem 0 0.1rem 0 ; } }
 
 /* Banner */
 #banner {
@@ -2059,7 +2062,7 @@ ul.icons {
   background-color: #005eff;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: url("../../images/Untitled-4.jpg");
+  background-image: url("../../images/logo-comnsciencia.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
