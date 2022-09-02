@@ -2859,4 +2859,5 @@ body.is-menu-visible #menu {
 
 iframe {
   width: 100%;
+  border-radius: 10px;
 }
