@@ -17,6 +17,7 @@ body {
 html {
   box-sizing: border-box; }
 
+
 *, *:before, *:after {
   box-sizing: inherit; }
 
@@ -98,7 +99,11 @@ html {
       font-size: 12pt; } }
   @media screen and (max-width: 480px) {
     html {
-      font-size: 11pt; } }
+      font-size: 11pt; } 
+      #tttt {
+        display: block !important;
+       }
+    }
 
 body {
   background-color: #ffffff;
@@ -2845,3 +2850,13 @@ body.is-menu-visible #menu {
  ul li{
   list-style-type: none;
  }
+
+
+
+#tttt{
+  display: flex !important;
+}
+
+iframe {
+  width: 100%;
+}
